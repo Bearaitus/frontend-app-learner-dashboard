@@ -29,7 +29,7 @@ import messages from './i18n';
 import App from './App';
 import NoticesWrapper from './components/NoticesWrapper';
 
-document.cookie = "openedx-language-preference=en; path=/; max-age=31536000; domain=.pt.edtechlab.local; SameSite=None; Secure";
+document.cookie = "openedx-language-preference=ru; path=/; max-age=31536000; domain=.pt.edtechlab.local; SameSite=None; Secure";
 
 subscribe(APP_READY, () => {
   ReactDOM.render(
