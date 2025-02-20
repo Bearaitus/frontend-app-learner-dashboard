@@ -14,7 +14,7 @@ const getLearnerHeaderMenu = (
     {
       type: 'item',
       href: '/',
-      content: 'Course',
+      content: 'Курс',
       isActive: true,
     },
     ...(getConfig().ENABLE_PROGRAMS ? [{
@@ -25,7 +25,7 @@ const getLearnerHeaderMenu = (
     {
       type: 'item',
       href: `${urls.baseAppUrl(courseSearchUrl)}`,
-      content: 'All courses',
+      content: 'Все курсы',
       onClick: (e) => {
         exploreCoursesClick(e);
       },
@@ -55,7 +55,7 @@ const getLearnerHeaderMenu = (
         {
           type: 'item',
           href: `${getConfig().LOGOUT_URL}`,
-          content: 'Sign out',
+          content: 'Выход',
         },
       ],
     },
