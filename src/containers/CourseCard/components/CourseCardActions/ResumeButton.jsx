@@ -27,7 +27,7 @@ export const ResumeButton = ({ cardId }) => {
       href="#"
       onClick={handleClick}
     >
-      Open course
+      Открыть курс
     </ActionButton>
   );
 };
