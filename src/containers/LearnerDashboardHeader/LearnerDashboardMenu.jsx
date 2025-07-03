@@ -14,7 +14,7 @@ const getLearnerHeaderMenu = (
     {
       type: 'item',
       href: '/',
-      content: 'Курс',
+      content: 'Мои курсы',
       isActive: true,
     },
     ...(getConfig().ENABLE_PROGRAMS ? [{
