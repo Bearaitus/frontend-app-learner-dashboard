@@ -20,10 +20,10 @@ export const NoCoursesView = () => {
     >
       <Image src={emptyCourseSVG} alt={formatMessage(messages.bannerAlt)} />
       <h1>
-        {formatMessage(messages.lookingForChallengePrompt)}
+        Ищете новый вызов?
       </h1>
       <p>
-        {formatMessage(messages.exploreCoursesPrompt)}
+        Изучите все наши курсы!
       </p>
       <Button
         variant="brand"
