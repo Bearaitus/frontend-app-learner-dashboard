@@ -76,7 +76,7 @@ export const App = () => {
   return (
     <>
       <Helmet>
-        <title>Домашняя страница</title>
+        <title>Мои курсы</title>
         <link rel="shortcut icon" href={getConfig().FAVICON_URL} type="image/x-icon" />
       </Helmet>
       <div>
