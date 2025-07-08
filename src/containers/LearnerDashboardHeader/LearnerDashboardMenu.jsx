@@ -31,49 +31,49 @@ const getLearnerHeaderMenu = (
       type: 'item',
       href: `https://help.ptsecurity.com/ru-RU/projects`,
       content: 'PT Help',
-      onClick: (e) => {
-        exploreCoursesClick(e);
-      },
+
     },
     {
       type: 'item',
       href: `https://www.ptsecurity.com/ru-ru/research/pt-esc-threat-intelligence/`,
-      content: 'PT ESC TI',
-      onClick: (e) => {
-        exploreCoursesClick(e);
-      },
+      content: 'PT ESC Threat Intelligence',
+
     },
     {
       type: 'item',
-      href: `https://mitre.ptsecurity.com/ru-RU`,
-      content: 'MITRE ATT&CK',
-      onClick: (e) => {
-        exploreCoursesClick(e);
-      },
-    },
-    {
-      type: 'item',
-      href: `https://www.ptsecurity.com/ru-ru/research/`,
-      content: 'Research',
-      onClick: (e) => {
-        exploreCoursesClick(e);
-      },
+      href: `https://www.ptsecurity.com/ru-ru/research/threatscape/`,
+      content: 'Threatscape',
+
     },
     {
       type: 'item',
       href: `https://www.ptsecurity.com/ru-ru/research/analytics/`,
       content: 'Analytics',
-      onClick: (e) => {
-        exploreCoursesClick(e);
-      },
+
+    },
+    {
+      type: 'item',
+      href: `https://mitre.ptsecurity.com/ru-RU`,
+      content: 'MITRE ATT&CK',
+
+    },
+    {
+      type: 'item',
+      href: `https://www.ptsecurity.com/ru-ru/research/hacker-groups/`,
+      content: 'Hacker Groups',
+
+    },
+    {
+      type: 'item',
+      href: `https://www.ptsecurity.com/ru-ru/research/analytics/`,
+      content: 'Positive Research',
+
     },
     {
       type: 'item',
       href: `https://edu.ptsecurity.com/pt_edtechlab`,
       content: 'PT EdTechLab',
-      onClick: (e) => {
-        exploreCoursesClick(e);
-      },
+
     },
   ],
   secondaryMenu: [
