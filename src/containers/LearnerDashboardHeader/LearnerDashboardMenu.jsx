@@ -25,7 +25,52 @@ const getLearnerHeaderMenu = (
     {
       type: 'item',
       href: `${urls.baseAppUrl(courseSearchUrl)}`,
-      content: 'Все курсы',
+      content: 'Все курсы'
+    },
+    {
+      type: 'item',
+      href: `https://help.ptsecurity.com/ru-RU/projects`,
+      content: 'PT Help',
+      onClick: (e) => {
+        exploreCoursesClick(e);
+      },
+    },
+    {
+      type: 'item',
+      href: `https://www.ptsecurity.com/ru-ru/research/pt-esc-threat-intelligence/`,
+      content: 'PT ESC TI',
+      onClick: (e) => {
+        exploreCoursesClick(e);
+      },
+    },
+    {
+      type: 'item',
+      href: `https://mitre.ptsecurity.com/ru-RU`,
+      content: 'MITRE ATT&CK',
+      onClick: (e) => {
+        exploreCoursesClick(e);
+      },
+    },
+    {
+      type: 'item',
+      href: `https://www.ptsecurity.com/ru-ru/research/`,
+      content: 'Research',
+      onClick: (e) => {
+        exploreCoursesClick(e);
+      },
+    },
+    {
+      type: 'item',
+      href: `https://www.ptsecurity.com/ru-ru/research/analytics/`,
+      content: 'Analytics',
+      onClick: (e) => {
+        exploreCoursesClick(e);
+      },
+    },
+    {
+      type: 'item',
+      href: `https://edu.ptsecurity.com/pt_edtechlab`,
+      content: 'PT EdTechLab',
       onClick: (e) => {
         exploreCoursesClick(e);
       },
