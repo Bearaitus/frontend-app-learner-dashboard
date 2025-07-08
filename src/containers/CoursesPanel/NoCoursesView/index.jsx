@@ -18,7 +18,7 @@ export const NoCoursesView = () => {
       id="no-courses-content-view"
       className="d-flex align-items-center justify-content-center mb-4.5"
     >
-      <Image src={emptyCourseSVG} alt={formatMessage(messages.bannerAlt)} />
+      <Image src={emptyCourseSVG} alt={formatMessage(messages.bannerAlt)} width="500px" />
       <h1>
         Ищете новый вызов?
       </h1>
