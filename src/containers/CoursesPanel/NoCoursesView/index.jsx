@@ -26,7 +26,7 @@ export const NoCoursesView = () => {
         Изучите все наши курсы!
       </p>
       <Button
-        variant="brand"
+        variant="danger"
         as="a"
         href={baseAppUrl(courseSearchUrl)}
         iconBefore={Search}
