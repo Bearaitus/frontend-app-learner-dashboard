@@ -87,16 +87,6 @@ const getLearnerHeaderMenu = (
     {
       heading: '',
       items: [
-        ...(getConfig().ORDER_HISTORY_URL ? [{
-          type: 'item',
-          href: getConfig().ORDER_HISTORY_URL,
-          content: formatMessage(messages.orderHistory),
-        }] : []),
-      ],
-    },
-    {
-      heading: '',
-      items: [
         {
           type: 'item',
           href: `${getConfig().LOGOUT_URL}`,

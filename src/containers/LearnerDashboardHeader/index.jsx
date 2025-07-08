@@ -31,8 +31,8 @@ export const LearnerDashboardHeader = () => {
       <ConfirmEmailBanner />
       <Header
         mainMenuItems={learnerHomeHeaderMenu.mainMenu}
-        // secondaryMenuItems={learnerHomeHeaderMenu.secondaryMenu}
-        // userMenuItems={learnerHomeHeaderMenu.userMenu}
+        secondaryMenuItems={learnerHomeHeaderMenu.secondaryMenu}
+        userMenuItems={learnerHomeHeaderMenu.userMenu}
       />
       <MasqueradeBar />
     </>
