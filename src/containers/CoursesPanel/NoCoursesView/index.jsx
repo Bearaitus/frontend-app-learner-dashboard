@@ -4,7 +4,7 @@ import { Button, Image } from '@openedx/paragon';
 import { Search } from '@openedx/paragon/icons';
 import { baseAppUrl } from 'data/services/lms/urls';
 
-import emptyCourseSVG from 'assets/empty-course.svg';
+import emptyCourseSVG from 'assets/empty-course.png';
 import { reduxHooks } from 'hooks';
 
 import messages from './messages';
