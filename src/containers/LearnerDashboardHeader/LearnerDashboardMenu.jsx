@@ -35,8 +35,8 @@ const getLearnerHeaderMenu = (
     },
     {
       type: 'item',
-      href: `https://www.ptsecurity.com/ru-ru/research/pt-esc-threat-intelligence/`,
-      content: 'PT ESC Threat Intelligence',
+      href: `https://dbugs.ptsecurity.com/`,
+      content: 'dbugs',
 
     },
     {
