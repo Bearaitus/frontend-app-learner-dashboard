@@ -27,7 +27,7 @@ export const CoursesPanel = () => {
   return (
     <div className="course-list-container">
       <div className="course-list-heading-container">
-        <h2 className="course-list-title">Мои курсы</h2>
+        <h2 className="course-list-title">My courses</h2>
 
       </div>
       {hasCourses ? <CourseListSlot courseListData={courseListData} /> : <NoCoursesViewSlot />}
