@@ -18,7 +18,7 @@ const getLearnerHeaderMenu = (
     },
     {
       type: 'item',
-      href: `https://help.ptsecurity.com/ru-RU/projects`,
+      href: `https://help.ptsecurity.com/en-US/projects`,
       content: 'PT Help',
 
     },
@@ -30,31 +30,31 @@ const getLearnerHeaderMenu = (
     },
     {
       type: 'item',
-      href: `https://www.ptsecurity.com/ru-ru/research/threatscape/`,
+      href: `https://global.ptsecurity.com/en/research/threatscape/`,
       content: 'Threatscape',
 
     },
     {
       type: 'item',
-      href: `https://www.ptsecurity.com/ru-ru/research/analytics/`,
+      href: `https://global.ptsecurity.com/en/research/analytics/`,
       content: 'Analytics',
 
     },
     {
       type: 'item',
-      href: `https://mitre.ptsecurity.com/ru-RU`,
+      href: `https://mitre.ptsecurity.com/en-US`,
       content: 'MITRE ATT&CK',
 
     },
     {
       type: 'item',
-      href: `https://www.ptsecurity.com/ru-ru/research/hacker-groups/`,
+      href: `https://global.ptsecurity.com/en/research/hacker-groups/`,
       content: 'Hacker Groups',
 
     },
     {
       type: 'item',
-      href: `https://www.ptsecurity.com/ru-ru/research/analytics/`,
+      href: `https://global.ptsecurity.com/en/research/analytics//`,
       content: 'Positive Research',
 
     },
