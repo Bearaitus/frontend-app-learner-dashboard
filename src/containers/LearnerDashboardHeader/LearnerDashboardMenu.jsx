@@ -79,7 +79,7 @@ const getLearnerHeaderMenu = (
         {
           type: 'item',
           href: `${getConfig().LOGOUT_URL}`,
-          content: 'Выход',
+          content: 'Logout',
         },
       ],
     },
