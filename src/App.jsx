@@ -40,7 +40,7 @@ export const App = () => {
   const { supportEmail } = reduxHooks.usePlatformSettingsData();
   const loadData = reduxHooks.useLoadData();
 
-  document.cookie = "openedx-language-preference=ru; path=/; max-age=31536000; domain=.pt.edtechlab.local; SameSite=None; Secure";
+  document.cookie = "openedx-language-preference=en; path=/; max-age=31536000; domain=.pt.edtechlab.local; SameSite=None; Secure";
 
   React.useEffect(() => {
     if (authenticatedUser?.administrator || getConfig().NODE_ENV === 'development') {
