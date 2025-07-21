@@ -20,7 +20,7 @@ export const NoCoursesView = () => {
     >
       <Image src={emptyCourseSVG} alt={formatMessage(messages.bannerAlt)} width="250px" />
       <p>
-        Изучите все наши курсы!
+        Explore all our courses!
       </p>
       <Button
         variant="danger"

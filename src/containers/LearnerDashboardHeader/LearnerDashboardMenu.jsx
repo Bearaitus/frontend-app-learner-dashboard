@@ -14,7 +14,7 @@ const getLearnerHeaderMenu = (
     {
       type: 'item',
       href: `${urls.baseAppUrl(courseSearchUrl)}`,
-      content: 'Все курсы'
+      content: 'All courses'
     },
     {
       type: 'item',
