@@ -54,13 +54,13 @@ const getLearnerHeaderMenu = (
     },
     {
       type: 'item',
-      href: `https://www.ptsecurity.com/ru-ru/research/analytics/`,
+      href: `https://ptresearch.media/`,
       content: 'Positive Research',
 
     },
     {
       type: 'item',
-      href: `https://edu.ptsecurity.com/pt_edtechlab`,
+      href: `https://t.me/edtechlab_chat`,
       content: 'PT EdTechLab',
 
     },
