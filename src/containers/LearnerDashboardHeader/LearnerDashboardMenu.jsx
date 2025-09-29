@@ -60,7 +60,7 @@ const getLearnerHeaderMenu = (
     },
     {
       type: 'item',
-      href: `https://edu.ptsecurity.com/pt_edtechlab`,
+      href: `https://t.me/edtechlab_chat`,
       content: 'PT EdTechLab',
 
     },
