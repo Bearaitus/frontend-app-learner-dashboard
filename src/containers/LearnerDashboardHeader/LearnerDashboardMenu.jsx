@@ -54,7 +54,7 @@ const getLearnerHeaderMenu = (
     },
     {
       type: 'item',
-      href: `https://global.ptsecurity.com/en/research/analytics//`,
+      href: `https://ptresearch.media/`,
       content: 'Positive Research',
 
     },
